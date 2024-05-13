@@ -377,4 +377,50 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 10rem;
+}
+
+.pacman {
+    width: 450px;
+    height: auto;
+    margin-left: 20rem;
+}
+
+.sfv {
+    width: 600px;
+    height: auto;
+    padding-right: 60px;
+}
+
+.terminator {
+    width: 500px;
+    height: auto;
+    margin-left: 15rem;
+}
+
+.hockey {
+    width: 700px;
+    height: auto;
+    padding-right: 100px
+}
+
+.pool {
+    width: 600px;
+    height: auto;
+    margin-left: 30rem;
+}
+
+.bowling {
+    width: 700px;
+    height: auto;
+}
+
+.claw {
+    width: 450px;
+    height: auto;
+    margin-left: 10rem;
+}
+
+.games__content li {
+    font-size: 100px;
 }
