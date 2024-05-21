@@ -350,7 +350,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 600vh;
+    height: 510vh;
 }
 
 .games h1 {
@@ -365,58 +365,114 @@
         #2a82b1 100%
     );
     background-size: 100%;
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
+    margin-top: 10rem;
+    font-size: 5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
-.games__container {
+.games__content h2 {
+    background-color: #faff77;
+    background-image: linear-gradient(
+        to right, 
+        #f8ff77 0%, 
+        #ebff7a 0%, 
+        #ecff7f 21%, 
+        #8ff985 52%, 
+        #55cf84 78%, 
+        #2a82b1 100%
+    );
+    background-size: 100%;
+    margin-top: 2rem;
+    margin-left: 25rem;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.games__content p {
+    background-color: #faff77;
+    background-image: linear-gradient(
+        to right, 
+        #f8ff77 0%, 
+        #ebff7a 0%, 
+        #ecff7f 21%, 
+        #8ff985 52%, 
+        #55cf84 78%, 
+        #2a82b1 100%
+    );
+    background-size: 100%;
+    margin-top: 2rem;
+    margin-left: 23rem;
+    font-size: 1.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.games__content li {
+    list-style-type: none;
+    margin-top: 5rem;
+}
+
+.games__content ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 10rem;
+    padding: 20px;
+    
 }
 
 .pacman {
-    width: 450px;
+    width: 300px;
     height: auto;
     margin-left: 20rem;
+    padding-bottom: 40px;
 }
 
+
 .sfv {
-    width: 600px;
+    width: 500px;
     height: auto;
     padding-right: 60px;
+    padding-bottom: 40px;
 }
 
 .terminator {
-    width: 500px;
+    width: 400px;
     height: auto;
     margin-left: 15rem;
+    padding-bottom: 40px;
 }
 
 .hockey {
-    width: 700px;
+    width: 550px;
     height: auto;
-    padding-right: 100px
+    padding-right: 100px;
+    padding-bottom: 40px;
 }
 
 .pool {
-    width: 600px;
+    width: 500px;
     height: auto;
     margin-left: 30rem;
+    padding-bottom: 40px;
 }
 
 .bowling {
-    width: 700px;
+    width: 650px;
     height: auto;
+    padding-right: 150px;
+    padding-bottom: 40px;
 }
 
 .claw {
-    width: 450px;
+    width: 375px;
     height: auto;
     margin-left: 10rem;
 }
