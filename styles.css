@@ -5,6 +5,8 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+
+
 .navbar {
   background: linear-gradient(to left, #010937, #000000);
   height: 80px;
@@ -214,13 +216,21 @@
     margin: 0 auto;
     height: 90vh;
     background-color: #4d4545;
-    z-index: 1;
+   
     width: 100%;
     padding: 0 50px;
+    background-image: url('videos/homepagearcadevideo.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
 }
 
+
 .main__container h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     background-color: #c4ff2e;
     background-image: linear-gradient(to top, #bdff08 0%, #99a3ff 110%);
     background-size: 100%;
@@ -231,7 +241,7 @@
 }
 
 .main__content h2 {
-    font-size: 4rem;
+    font-size: 8rem;
     background-color: #c4ff2e;
     background-image: linear-gradient(to top, #bdff08 0%, #99a3ff 110%);
     background-size: 100%;
@@ -239,6 +249,11 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+.main__content p {
+    margin-top: 10px;
+    color: #fff;
 }
 
 .main__btn {
@@ -346,11 +361,11 @@
 
 /* Games Section */
 .games {
-    background: #2a2828;
+    background: #181717;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 510vh;
+    height: 530vh;
 }
 
 .games h1 {
@@ -358,7 +373,7 @@
     background-image: linear-gradient(
         to right, 
         #f8ff77 0%, 
-        #ebff7a 0%, 
+        #ebff7a 0%,  
         #ecff7f 21%, 
         #8ff985 52%, 
         #55cf84 78%, 
@@ -371,6 +386,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-decoration: underline #2a82b1;
+    
 }
 
 .games__content h2 {
@@ -392,6 +409,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-decoration: underline #ffffff;
 }
 
 .games__content p {
@@ -413,6 +431,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    text-decoration: underline #ffffff;
 }
 
 .games__content li {
@@ -432,51 +451,66 @@
     width: 300px;
     height: auto;
     margin-left: 20rem;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border: 5px solid #f8ff77;
+    border-radius: 20px;
 }
 
 
 .sfv {
     width: 500px;
     height: auto;
-    padding-right: 60px;
-    padding-bottom: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    border: 5px solid #ebff7a;
+    border-radius: 20px;
 }
 
 .terminator {
     width: 400px;
     height: auto;
     margin-left: 15rem;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border: 5px solid #ecff7f;
+    border-radius: 20px;
 }
 
 .hockey {
     width: 550px;
     height: auto;
-    padding-right: 100px;
-    padding-bottom: 40px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    border: 5px solid #8ff985;
+    border-radius: 20px;
 }
 
 .pool {
     width: 500px;
     height: auto;
     margin-left: 30rem;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border: 5px solid #55cf84;
+    border-radius: 20px;
 }
 
 .bowling {
     width: 650px;
     height: auto;
-    padding-right: 150px;
-    padding-bottom: 40px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    border: 5px solid #2a82b1;
+    border-radius: 20px;
 }
 
 .claw {
     width: 375px;
     height: auto;
     margin-left: 10rem;
+    border: 5px solid #3a55c1;
+    border-radius: 20px;
 }
 
 .games__content li {
     font-size: 100px;
 }
+
