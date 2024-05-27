@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="/mstyles.css" />
+
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+    <title>StarCross Membership Form</title>
+</head>
+
+
+
+<body>
+
+    <form class="my-form" id="bestmates-form" action="" method="get">
+        <h1 class="col">StarCross Membership Form</h1>
+        <ul>
+            <li>
+                <div class="grid col" >
+                    <label for="firstname">First Name:</label>
+                    <input type="firstname" class="form-control" id="firstname" placeholder="First Name" required>
+                    <label for="lastname">Last Name:</label>
+                    <input type="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
+                    <label for="age">Age:</label>
+                    <input type="age" class="form-control" id="age" placeholder="Age" required>
+                    <label for="exampleInputEmail1">Email address:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email" required>
+                    <small id="emailHelp" class="form-text text-muted">This is for emergency contact. We will never share
+                        your
+                        email with anyone else.</small>
+
+                </div>
+            </li>
+            <div class=" col" required>
+                <p>Please annual membership plan:</p>
+                <p>Silver membership is monthly and allows access to all floor 1 games for free all other levels would need to be paid</p>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Silver plan $79.99</label><br>
+
+                <p>Gold membership is monthly and allows access to all floor 1 and 2 games for free all other levels would need to be paid</p>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Gold Plan $129.99</label><br>
+
+                <p>Platinum membership is monthly and allows access to all floor games for free</p>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Platinum $179.99</label><br>
+                <br>
+                <br>    
+
+                <form action="#">
+                    
+                </form>
+
+                <br>
+
+
+        </ul>
+        <button type="submit" class="btn btn-primary col" value="submit">Submit</button>
+    </form>
+</body>
+<br>
+<br>
+<br>
+
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</html>
